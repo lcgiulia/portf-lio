@@ -1,5 +1,5 @@
 .topo {
-    /*background-color: #f381b6; /* Rosa pastel */
+    /background-color: #f381b6; / Rosa pastel */
     padding: 20px;
     text-align: center;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@
 
 .topo-carac {
     padding: 20px;
-    /*border: 1px solid white;*/
+    /border: 1px solid white;/
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -45,7 +45,7 @@
 
 .topo-carac {
     padding: 20px;
-    /*border: 1px solid white;*/
+    /border: 1px solid white;/
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
     flex-direction: row-reverse;
