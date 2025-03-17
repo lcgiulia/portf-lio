@@ -1,5 +1,4 @@
 .topo {
-    /background-color: #f381b6; / Rosa pastel */
     padding: 20px;
     text-align: center;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -11,6 +10,7 @@
     height: 20%;
     width: 30%;
 }
+
 .topo a {
     text-decoration: none;
     font-size: 30px;
@@ -18,9 +18,8 @@
     color: #c12277; /* Rosa mais escuro */
 }
 
-.topo-carac {
+.topo-sobre {
     padding: 20px;
-    /border: 1px solid white;/
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -29,23 +28,8 @@
     width: 30%;
 }
 
-.titulo-carac {
-    text-decoration: none;
-    font-size: 30px;
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: center !important;
-    font-weight: bold;
-    color: #c12277; /* Rosa mais escuro */
-}
-
-.topo-carac ul {
-    line-height: 2;
-}
-
 .topo-carac {
     padding: 20px;
-    /border: 1px solid white;/
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -54,12 +38,16 @@
     width: 30%;
 }
 
-.titulo-carac {
+.topo-carac ul, .topo-sobre ul {
+    line-height: 2;
+}
+
+.titulo-carac, .titulo-sobre {
     text-decoration: none;
     font-size: 30px;
     display: flex;
     margin-bottom: 10px;
-    justify-content: center !important;
+    justify-content: flex-start !important;
     font-weight: bold;
     color: #c12277; /* Rosa mais escuro */
 }
